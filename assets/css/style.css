@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+/*---------------------------navigation------------------------------*/
+
+.navbar {
+  font-family: "Exo", sans-serif;
+  font-size: 22px;
+}
+
+.navbar-inverse {
+  background-color: #e5e5e5;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #fafafa;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #e5e5e5;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #0000ff;
+}
+
+.navbar-inverse .navbar-brand {
+  color: rgba(0, 0, 255, 1);
+  font-family: "Exo", sans-serif;
+  letter-spacing: normal;
+}
+
+.navbar-brand {
+  font-size: 15px;
+
+}
+
+.navbar-brand:hover {
+  color: #0000ff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: blue;
+}
+
+/* cabeceras */
+h2:first-of-type {
+  margin-top: 0 !important;
+}
+
+/*--------------------------------------------Section Index intro*/
+
+section {
+  margin-bottom: 5%;
+}
+
+
+.home-info {
+  margin-top: 3em;
+}
+
+.logo {
+  background: url("../images/Picture1Log.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  min-height: 180px;
+  transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  margin: 2em 0 0 8em 0;
+}
+
+.second-statement {
+  margin-top: 80%;
+  margin-bottom: 3%;
+}
+
+/*--------------------------------------------Footer*/
+footer {
+  font-size: smaller;
+  background-color: #525252;
+  color: #fafafa;
+  min-height: 120px;
+  margin: 0;
+}
+
+.social-links {
+  padding-bottom: 10px;
+}
+
+.social-links li a i {
+  width: 25px;
+  height: 32px;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: #fafafa;
+  transition: all 0.20s ease-in-out;
+  -moz-transition: all 0.20s ease-in-out;
+  -webkit-transition: all 0.20s ease-in-out;
+  -o-transition: all 0.20s ease-in-out;
+}
+
+.social-links li a i:hover {
+  background: #0000ff;
+  padding: 12px 0;
+  border-radius: 50%;
+}
+
+#footer-details {
+  margin: 20px;
+}
+
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+
+/*--------------------------------------------Contact*/
+
+.contact-heading {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  color: blue;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.center-form {
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+h5, h5 {
+    font-size: 20px;
+    color: blue;
+}
+
+button[ type="submit"] {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: #d3d3d3;
+  color: #0000ff;
+}
+
+
+/*--------------------------------------------Team*/
+
+.content-team {
+  margin-top: 15%;
+  margin-bottom: 5em;
+}
+
+.team .photo {
+  float: left;
+  margin-bottom: 2px;
+  margin-right: 50px;
+  max-width: 180px;
+}
+
+img {
+  margin: auto;
+  display: block;
+  border-radius: 5px;
+}
+
+.more-info-team  {
+  margin-top: 5em;
+}
+
+
+/*--------------------------------------------Projects_all of them*/
+
+
+.container-fluid {
+  margin-top: 5em;
+}
+
+/*--------------------------------------------Project3*/
+
+
+.figure3_1 {
+  display: block;
+  margin-bottom: 2px;
+  margin-right: 50px;
+  max-width: 100%;
+}
+
+img {
+  margin: auto;
+  display: block;
+  border-radius: 5px;
+}
+
+.figure3_2 {
+  display: block;
+  margin-bottom: 2px;
+  margin-right: 50px;
+  max-width: 100%;
+}
+
+
+/*---------------------------------------------Project 2 */
+
+
+
+.figure2_1 {
+  display: block;
+  margin-bottom: 2px;
+  margin-right: 50px;
+  max-width: 100%;
+}
+
+img {
+  margin: auto;
+  display: block;
+  border-radius: 5px;
+}
+
+.figure2_2 {
+  display: block;
+  margin-bottom: 2px;
+  margin-right: 50px;
+  max-width: 100%;
+}
