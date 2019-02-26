@@ -55,12 +55,12 @@ h2:first-of-type {
 /*--------------------------------------------Section Index intro*/
 
 section {
-  margin-bottom: 5%;
+
 }
 
 
 .home-info {
-  margin-top: 3em;
+
 }
 
 .logo {
@@ -73,12 +73,12 @@ section {
   transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
-  margin: 2em 0 0 8em 0;
+  margin: 0 0 0 0;
 }
 
+
 .second-statement {
-  margin-top: 80%;
-  margin-bottom: 3%;
+    padding-top: 7px;
 }
 
 /*--------------------------------------------Footer*/
@@ -87,7 +87,7 @@ footer {
   background-color: #525252;
   color: #fafafa;
   min-height: 120px;
-  margin: 0;
+  text-align: center;
 }
 
 .social-links {
@@ -150,8 +150,8 @@ footer {
 }
 
 h5, h5 {
-    font-size: 20px;
-    color: blue;
+  font-size: 20px;
+  color: blue;
 }
 
 button[ type="submit"] {
@@ -182,7 +182,7 @@ img {
   border-radius: 5px;
 }
 
-.more-info-team  {
+.more-info-team {
   margin-top: 5em;
 }
 
@@ -221,7 +221,6 @@ img {
 /*---------------------------------------------Project 2 */
 
 
-
 .figure2_1 {
   display: block;
   margin-bottom: 2px;
@@ -243,32 +242,41 @@ img {
 }
 
 
-
-
 /*--------------------------------------------Media Query*/
 
-@media(min-width: 992px) {
+@media (min-width: 992px) {
 
-	.navbar-brand {
-		font-size:30px;
-	}
+  .navbar-brand {
+    font-size: 30px;
+  }
 }
 
 
+@media (min-width: 768px) {
 
+  .navbar-brand {
+    font-size: 30px;
+  }
 
-@media(min-width: 768px) {
-
-	.navbar-brand {
-		font-size:30px;
-	}
   p {
     font-size: 24px;
   }
+
   .logo {
     min-height: 360px;
   }
+
+  .home-info {
+    padding-left: 12px;
+  }
+
+  .second-statement {
+    margin-bottom: 3%;
+    padding-left: 12px;
+  }
+
 }
+
 Collapse
 
 
