@@ -64,16 +64,19 @@ section {
 }
 
 .logo {
-  background: url("../images/Picture1Log.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 15px;
-  min-height: 180px;
-  transition: all .5s ease-in-out;
-  -moz-transition: all .5s ease-in-out;
-  -webkit-transition: all .5s ease-in-out;
-  margin: 0 0 0 0;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    height: 219px;
+    /* width: 300px; */
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    margin: 0 0 0 0;
+    /* padding: 5px; */
+    /* margin-left: 20px; */
+    margin-right: 106px;
 }
 
 
