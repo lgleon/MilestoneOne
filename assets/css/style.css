@@ -241,3 +241,35 @@ img {
   margin-right: 50px;
   max-width: 100%;
 }
+
+
+
+
+/*--------------------------------------------Media Query*/
+
+@media(min-width: 992px) {
+
+	.navbar-brand {
+		font-size:30px;
+	}
+}
+
+
+
+
+@media(min-width: 768px) {
+
+	.navbar-brand {
+		font-size:30px;
+	}
+  p {
+    font-size: 24px;
+  }
+  .logo {
+    min-height: 360px;
+  }
+}
+Collapse
+
+
+
