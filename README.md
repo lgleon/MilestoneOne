@@ -90,3 +90,91 @@ the [guidelines](.github/CONTRIBUTING.md):
 ## License
 
 The code is available under the [MIT license](LICENSE.txt).
+
+
+
+
+
+# Bioinformatics Immunology EMC Web 
+
+## Overview
+
+#### Why this website?
+This is the website of our research group. We work in bioinformatics 
+and we want to make our lab and work more public, we also aim
+get in contact with other groups and  eventually stablish new collaborations.
+ 
+ 
+#### UX
+This website was designed thinking in other researcher which want to know a bit more about
+our group and our work and get in contact if they want to collaborate. In is not easy, in 
+The official EMC website find information of an small group, EMC web is also not aesthetic 
+to keep the interested of new collaborators.
+
+I didn't use any computer wireframes or mockups, I did use paper wireframes, I made a picture 
+of them to include them here.
+
+
+#### Features
+##### Existing Features
+Home page with few lines about the group with l¡nks to other pages
+
+
+##### Features Left to Implement
+Add more project that come out
+
+
+#### Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+
+-Bootstrap
+We use Bootstrap to give our project a simple, responsive layout.
+
+-JQuery
+Included with Bootstrap to have dynamic elements
+
+-BootstrapCDN
+To use font awesome
+https://www.bootstrapcdn.com/fontawesome/
+ 
+ #### Testing 
+ 
+Contact form:
+-Go to Let's collaborate 
+-Try to submit the from empty or incomplete or wrong information 
+
+
+We had a problem with the footer in Chrome browser,   
+
+
+
+
+#### Deployment
+
+I used GitHub to deploy the project
+
+
+
+
+#### Credits
+
+##### Content
+The content of the project is original from the project I actually working on and 
+collaborating with people in my department
+
+##### Media
+The photo for the home page was created as a logo for me from a friend, we did it 
+together I cut my name and add the background
+The Figures for the projects, I generated those during the analysis of the data and they
+are originals
+
+##### Acknowledgements
+
+I got Inspiration for this project looking into other website from bioinformatics Labs
+
+http://www.hammerlab.org/
+https://ccbc.erasmusmc.nl/
+https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/pattern-recognition-bioinformatics/the-delft-bioinformatics-lab/
