@@ -6,6 +6,7 @@
 .navbar {
   font-family: "Exo", sans-serif;
   font-size: 22px;
+  padding-left: 1em;
 }
 
 .navbar-inverse {
@@ -52,10 +53,14 @@ h2:first-of-type {
   margin-top: 0 !important;
 }
 
+h2 {
+  font-size: 20px;
+}
+
 /*--------------------------------------------Section Index intro*/
 
-section {
-
+p {
+  padding-bottom: 1em;
 }
 
 
@@ -351,6 +356,9 @@ img {
   h2:first-of-type {
     margin-top: 2em !important;
   }
+  h2 {
+    font-size: 25px;
+  }
 
   .form-control {
     font-size: 24px;
@@ -385,17 +393,21 @@ img {
 
 @media (min-width: 922px) {
 
-  body {
+  /*body {
     margin: 0 15% 0 15%;
   }
-
+*/
   .container {
     width: auto;
   }
+  .row {
+    ;
+  }
 
   p {
-    font-size: 24px;
+    font-size: 16px;
   }
+
 }
 
 

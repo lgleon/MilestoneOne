@@ -16,32 +16,37 @@
 <!--navbar-->
 <!-- Header: to put the lab Name to the right and menu (symbol) to the left
  each space is around 1/3 (Menu) and 2/3 (Name)-->
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="">BioInformatics Immunology EMC</a>
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+<div class="container">
+  <nav class="navbar navbar-inverse navbar-fixed-top row">
+    <div class="col-lg-2"></div>
+    <div class="container col-xs-12 col-lg-8">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="">BioInformatics Immunology EMC</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="col-lg-2"></div>
+      <div id="navbar" class="collapse navbar-collapse" aria-expanded="true" style="height: 1px;">
+        <ul class="nav navbar-nav">
+          <li class="#">
+            <a href="index.html" data-toggle="collapse" data-target=".navbar-collapse.in">Home</a>
+          </li>
+          <li><a href="work.html" data-toggle="collapse" data-target=".navbar-collapse.in">Work</a></li>
+          <li><a href="team.html" data-toggle="collapse" data-target=".navbar-collapse.in">Team</a></li>
+          <!--<li><a href="#partnerlinks" data-toggle="collapse" data-target=".navbar-collapse.in">Partner Links</a></li>-->
+          <li><a href="contact.html" data-toggle="collapse" data-target=".navbar-collapse.in">Contact</a></li>
+        </ul>
+      </div>
     </div>
-    <div id="navbar" class="collapse navbar-collapse" aria-expanded="true" style="height: 1px;">
-      <ul class="nav navbar-nav">
-        <li class="#">
-          <a href="index.html" data-toggle="collapse" data-target=".navbar-collapse.in">Home</a>
-        </li>
-        <li><a href="work.html" data-toggle="collapse" data-target=".navbar-collapse.in">Work</a></li>
-        <li><a href="team.html" data-toggle="collapse" data-target=".navbar-collapse.in">Team</a></li>
-     <!--<li><a href="#partnerlinks" data-toggle="collapse" data-target=".navbar-collapse.in">Partner Links</a></li>-->
-        <li><a href="contact.html" data-toggle="collapse" data-target=".navbar-collapse.in">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+  </nav>
+</div>
 <!-- Section: to put the lab logo and some text with links -->
-<section class="container-fluid">
-  <div class="content">
+<section class="container-fluid row">
+  <div class="col-lg-2"></div>
+  <div class="content col-xs-12 col-lg-8">
     <p>
       Bioinformatics Immunology is a
       <a href="team.html">team</a>
@@ -61,6 +66,7 @@
         <a href="contact.html">contact</a>
         us and we could tall and work together.</p>
     </div>
+    <div class="col-lg-2"></div>
   </div>
 </section>
 <footer class="container-fluid footer">
@@ -88,6 +94,7 @@
     </div>
   </div>
 </footer>
+</div>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
