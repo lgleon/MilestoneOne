@@ -340,6 +340,7 @@ img {
 
   .footer {
     min-height: 160px;
+    max-width: 100%;
   }
 
   .team .photo {
