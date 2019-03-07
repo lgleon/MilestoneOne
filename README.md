@@ -16,22 +16,21 @@ our group and our work and get in contact if they want to collaborate. In is not
 The official EMC website find information of an small group, EMC web is also not aesthetic 
 to keep the interested of new collaborators.
 
-I didn't use any computer wireframes or mockups, I did use paper wireframes, I made a picture 
-of them to include them here.
+I didn't use any computer wireframes or mockups, I did use paper wireframes, I took a picture 
+to include them here (assets/images/MilestoneOne_wireframe.jpeg)
 
 
 #### Features
 ##### Existing Features
-Home page with few lines about the group with l¡nks to other pages
-Contact form is working but it is not fully functional because, there no real alert to 
-anyone in the team when someone fill the form and there is no database to record it.
+The Contact form is working but it is not fully functional because, there is no real alert to 
+anyone within the team when someone submits the form.
 
 
 
 ##### Features Left to Implement
-The contact will be fully functional and we will create a database to keep record of the
-possible collaborators.
-When we collaborate in more project we will include then in the work and project sections.
+The contact will be fully functional, and we will create a database to keep record of the
+possible collaborators.When we collaborate in more projects we will include them in the work and 
+project sections.
 
 
 
@@ -41,59 +40,47 @@ When we collaborate in more project we will include then in the work and project
 - HTML5
 - CSS3
 - JavaScript
-- PyCharm
+- PyCharm IDE
 - Git
-- GitHub, as a repository for the project and to share 
+- GitHub 
+Public repository for the project 
 
 - Bootstrap
-I use Bootstrap to give our project a simple, responsive layout.
+To give our project a simple, responsive layout.
 
 -JQuery
-Included with Bootstrap to have dynamic elements
-
--BootstrapCDN
-To use font awesome
-https://www.bootstrapcdn.com/fontawesome/
+It is needed to have dynamic elements as the collapse button in the navbar
  
 
 #### Testing 
  
 All pages were tested locally and on GitHub using Chrome, Firefox or Safari developer 
-tools. The test was mainly checking the responsiveness of all pages in different sizes, 
-mainly iPhone5, iPad and desktop. All links were tested along with the youtube videos.
-The form in the contact page were tested as follows:
- 
--Go to Let's collaborate 
--Try to submit the from empty or incomplete or wrong information 
-
-
-We had a problem with the footer in Chrome browser, a gap in the right side of the footer
-apear for no reason aparently, but it was only when we check the page in the Chrome browser
-nothing happen in Safari or Firefox.   
-
-
+tools. The tests were mainly checking the responsiveness of all pages in different sizes, 
+using iPhone5/6/7/8/X, Galaxy android phones, iPad 1/2/3/Pro and desktop. All links were tested 
+along with the YouTube videos. The contact form was tested trying to submit the form empty or 
+incomplete to be sure that all requirements fields must be filled before submitting.  
 
 
 #### Deployment
 
-Website was code using pyCharm, local Git was used for version control and then 
-uploaded to GitHub using MacOX, well the Terminal window in pyCharm. Once in GitHub
+Website was coded using PyCharm, a local Git was used for version control and then 
+uploaded to GitHub using MacOX, well the Terminal window in PyCharm. Once in GitHub
 it was made live using GitHub pages. The Website can be found at:
-https://github.com/lgleon/MilestoneOne
+https://lgleon.github.io/MilestoneOne/
+
 
 
 
 #### Credits
 
 ##### Content
-The content of the project is original from the project I actually working on and 
-collaborating with people in my department
+The content of the project is original from the project I am working on and 
+collaborating with other professionals in my department
 
 ##### Media
 The photo for the home page was created as a logo for me from a friend, we did it 
-together I cut my name and add the background
-The Figures for the projects, I generated those during the analysis of the data and they
-are originals
+together I cut my name and add the background. The figures for the projects were generated 
+during the analysis of the data and they are originals.
 
 ##### Acknowledgements
 
